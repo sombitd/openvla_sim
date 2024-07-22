@@ -37,7 +37,9 @@ EvalSim() {
 
 for policy_model in "${policy_models[@]}"; do
   for env_name in "${env_names[@]}"; do
+    print(env_name)
     EvalSim
+    print("####################" )
   done
 done
 
